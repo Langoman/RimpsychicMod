@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>Rimpsychic_ResonantHammer</defName>
+    <label>resonant hammer</label>
+    <description>A light hammer that resonates with human mental frequencies, stunning those it hits and empowering the wielder. It has a tuning fork on the handle.</description>
+   
+    <graphicData>
+      <texPath>Rimpsychic/Textures/Melee/ResonantHammer</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+
+    <statBases>
+      <MeleeDamage>20</MeleeDamage>
+      <MeleeHitChance>0.6</MeleeHitChance>
+      <Mass>0.9</Mass>
+      <MarketValue>600</MarketValue>
+      <WorkToMake>18000</WorkToMake>
+    </statBases>
+
+    <costList>
+        <Eltex>5</Eltex>
+    </costList>
+    <costStuffCount>40</costStuffCount>
+    <stuffCategories>
+        <li>Metallic</li>
+    </stuffCategories>
+
+    <equippedStatOffsets>
+        <PsychicSensitivity>0.2</PsychicSensitivity>
+    </equippedStatOffsets>
+
+    <recipeMaker>
+        <researchPrerequisite>Research_EltexGear</researchPrerequisite>
+        <skillRequirements>
+            <Crafting>6</Crafting>
+        </skillRequirements>
+        <displayPriority>420</displayPriority>
+    </recipeMaker>
+    
+    <tools>
+        <li>
+            <label>head</label>
+            <capacities>
+            <li>Blunt</li>
+            </capacities>
+            <power>16</power>
+            <cooldownTime>1.5</cooldownTime>
+        </li>
+        <li>
+            <label>fork</label>
+            <capacities>
+            <li>Stab</li>
+            </capacities>
+            <power>5</power>
+            <cooldownTime>1.5</cooldownTime>
+        </li>
+    </tools>
+
+  </ThingDef>
+</Defs>
