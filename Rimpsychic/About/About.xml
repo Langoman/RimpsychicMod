@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <packageId>Lango.Rimpsychic</packageId>
+    <name>Rimpsychic</name>
+    <author>Lango</author>
+    <description>A Rimworld mod that adds weapons and psycasts focused on psychic powers from popular media. Compatible with CE and depends on Vanilla Psycasts Expanded.</description>
+    <supportedVersions>
+        <li>1.6</li>
+    </supportedVersions>
+    <modVersion>1.0.0</modVersion>
+
+    <!--Change later when publishing, this is the Harmony workshop URL-->
+    <url>https://steamcommunity.com/workshop/filedetails/?id=2009463077</url>
+    <modDependencies>
+        <li>
+            <packageId>VanillaExpanded.VPsycastsE</packageId>
+            <displayName>Vanilla Psycasts Expanded</displayName>
+            <packageId>Ludeon.RimWorld.Royalty</packageId>
+            <displayName>Royalty</displayName>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>CETeam.CombatExtended</li>
+    </loadAfter>
+</ModMetaData>
