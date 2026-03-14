@@ -20,26 +20,6 @@
       <WorkToMake>18000</WorkToMake>
     </statBases>
 
-    <costList>
-        <Eltex>5</Eltex>
-    </costList>
-    <costStuffCount>40</costStuffCount>
-    <stuffCategories>
-        <li>Metallic</li>
-    </stuffCategories>
-
-    <equippedStatOffsets>
-        <PsychicSensitivity>0.2</PsychicSensitivity>
-    </equippedStatOffsets>
-
-    <recipeMaker>
-        <researchPrerequisite>Research_EltexGear</researchPrerequisite>
-        <skillRequirements>
-            <Crafting>6</Crafting>
-        </skillRequirements>
-        <displayPriority>420</displayPriority>
-    </recipeMaker>
-    
     <tools>
         <li>
             <label>head</label>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RecipeDefs>
+    <defName>MakeResonantHammer</defName>
+    <label>make resonant hammer</label>
+    <description>Craft an eltex bound resonant hammer.</description>
+    <jobString>Infusing a resonant hammer.</jobString>
+    <workAmount>10000</workAmount>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <!--<soundWorking>sound_reference</soundWorking>-->
+    <requiredGiverWorkType>Smithing</requiredGiverWorkType>
+    <researchPrerequisite>VPE_EltexGear</researchPrerequisite>
+    <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+
+    <skillRequirements>
+			<li>
+				<skill>Crafting</skill>
+				<minLevel>6</minLevel>
+			</li>
+    </skillRequirements>
+    <recipeUsers>
+			<li>FueledSmithy</li>
+            <li>ElectricSmithy</li>
+    </recipeUsers>
+
+    <ingredients>
+        <li>
+            <filter>
+                <categories>
+                    <li>Metallic</li>
+                </categories>
+            </filter>
+            <count>20</count>
+        </li>
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>Eltex</li>
+                </thingDefs>
+            </filter>
+            <count>10</count>
+        </li>
+    </ingredients>
+
+    <products>
+        <defName>Rimpsychic_ResonantHammer</defName>
+        <defName>1</defName>
+    </products>
+</RecipeDefs>
